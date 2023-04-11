@@ -15,6 +15,10 @@ export default function Home(props) {
         <h1>
           { props.story ? props.story.name : 'My Site' }
         </h1>
+
+        <StoryblokComponent blok={story.content} />
+
+
       </header>
  
       <main>
